@@ -65,7 +65,6 @@ GOOGLE_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CALLBACK=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 
-
 8. 激活伺服器<br>
 <code>$ npm run dev</code>
 
