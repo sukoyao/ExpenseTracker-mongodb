@@ -51,26 +51,26 @@
 <code>$ cd ExpenseTracker-mongodb</code>
 
 5. 安裝 npm 軟件包<br>
-> $ npm install
+<code>$ npm install</code>
 
 6. 創建 .env 文件<br>
-> $ touch .env
+<code>$ touch .env</code>
 
 7. 將 API 密鑰存儲在 .env 文件中並保存<br>
-FACEBOOK_ID=xxxxxxxxxxxxxxxxxxxxxxxx<br>
+<code>FACEBOOK_ID=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 FACEBOOK_SECRET=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 FACEBOOK_CALLBACK=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 <br>
 GOOGLE_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CALLBACK=xxxxxxxxxxxxxxxxxxxxxxxx<br>
-<br>
+<br></code>
 
 8. 激活伺服器<br>
->> $ npm run dev
+<code>$ npm run dev</code>
 
 9. 本機成功激活訊息<br>
-> App is running on http://localhost:3000<br>
-> mongodb is connected
+<code>App is running on http://localhost:3000<br>
+mongodb is connected</code>
 
 
