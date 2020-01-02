@@ -57,14 +57,15 @@
 <code>$ touch .env</code>
 
 7. 將 API 密鑰存儲在 .env 文件中並保存<br>
-<code>FACEBOOK_ID=xxxxxxxxxxxxxxxxxxxxxxxx<br>
+<code>
+FACEBOOK_ID=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 FACEBOOK_SECRET=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 FACEBOOK_CALLBACK=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 <br>
 GOOGLE_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CALLBACK=xxxxxxxxxxxxxxxxxxxxxxxx<br>
-<br></code>
+</code>
 
 8. 激活伺服器<br>
 <code>$ npm run dev</code>
