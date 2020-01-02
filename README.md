@@ -11,7 +11,7 @@
 ## Features
 
 |Functions|Detail|URL|
-:---: | --- | :---
+:---: | --- | :---:
 註冊新賬號 | 1. 用戶可以通過輸入名稱，電子郵件，密碼來註冊帳戶<br>2. 註冊過的Email，再次申請會收到 "Email 已經註冊過了!" 的警告消息<br>3. 註冊用戶時 Password 和 Confirm Password 不相同，會收到 "密碼輸入錯誤，請重新輸入!" 的警告消息<br>4. 成功註冊後會自動導入登入首頁 | /users/register
 首頁登入 | 1. 系統將會顯示 "請先登入才能使用" 的提示消息<br>2. 用戶可以使用已註冊的電子郵件登入 | /users/login
 使用 Google 或 Facebook 帳戶登入 | 用戶可以使用自己的 Google 或 Facebook 帳戶快速登入 | /auth/google<br>/auth/facebook
