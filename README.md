@@ -18,8 +18,8 @@
 登出 | 登出該帳號，系統會顯示 "你已經成功登出了" | /users/logout
 查看月份費用 | 用戶登入後可以查看月份費用明細 | /filter/month/月份( 01 ~ 12 )
 查看項目費用 | 用戶登入後可以查看項目費用明細 | /filter/category/項目( home, travel, leisure, food, other )
-新增支出 | 用戶填寫新增支出相關資訊( 名稱，日期，項目，金額 ) | /records/new
-編輯支出 | 用戶填寫修改支出相關資訊( 名稱，日期，項目，金額 ) | /records/:id/edit
+新增支出 | 用戶填寫新增支出相關資訊 ( 名稱，日期，項目，金額 ) | /records/new
+編輯支出 | 用戶填寫修改支出相關資訊 ( 名稱，日期，項目，金額 ) | /records/:id/edit
 刪除支出 | 用戶刪除支出相關資訊 | /records/:id/delete
 ---
 
@@ -48,7 +48,7 @@
   > 我的應用程式 > 建立應用程式 > 設定基本資料 > 取得應用程式編號與密鑰 > 產品+ > Facebook登入 > 設定 > 輸入有效的 OAuth 重新導向 URI
 
 4. 進入下載的文件夾<br>
-> $ cd ExpenseTracker-mongodb
+<code>$ cd ExpenseTracker-mongodb</code>
 
 5. 安裝 npm 軟件包<br>
 > $ npm install
@@ -64,9 +64,10 @@ FACEBOOK_CALLBACK=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 GOOGLE_CALLBACK=xxxxxxxxxxxxxxxxxxxxxxxx<br>
+<br>
 
 8. 激活伺服器<br>
-> $ npm run dev
+>> $ npm run dev
 
 9. 本機成功激活訊息<br>
 > App is running on http://localhost:3000<br>
