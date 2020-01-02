@@ -1,0 +1,33 @@
+<div class="row mt-5">
+  <div class="col-md-3 m-auto">
+    <div class="card card-body m-auto" style="background:linen; max-width:400px;">
+      <h1 class="text-center mb-3 mr-auto">Register</h1>
+      {{> messages}}
+      <form action="/users/register" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" value="{{name}}">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email" value="{{email}}">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password"
+            value="{{password}}">
+        </div>
+
+        <div class="form-group">
+          <label for="password2">Confirm Password</label>
+          <input type="password" class="form-control" name="password2" id="password2" placeholder="Confirm Password"
+            value="{{password2}}">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-user-plus" style="font-size: 1.5rem;"></i> Register</button>
+      </form>
+      <p class="lead mt-4">Have An Account ? <a href="/users/login">Login</a></p>
+    </div>
+  </div>
+</div>
