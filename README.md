@@ -31,7 +31,7 @@
 3. MongoDB v4.0.10
 
 ### Clone
-將此儲存庫下載到本地主機<br>$ https://github.com/sukoyao/ExpenseTracker-mongodb.git
+將此儲存庫下載到本地主機<br><code>$ https://github.com/sukoyao/ExpenseTracker-mongodb.git</code>
 
 ---
 
