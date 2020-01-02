@@ -72,4 +72,7 @@ GOOGLE_CALLBACK=xxxxxxxxxxxxxxxxxxxxxxxx<br>
 <code>App is running on http://localhost:3000<br>
 mongodb is connected</code>
 
+## Author
+ Yao - Initial work - [Github: sukoyao](https://github.com/sukoyao)
+
 
